@@ -2,7 +2,7 @@ package riscv
 import chisel3._
 
 class mem_wb_reg extends Module{
-  val io = (new Bundle{
+  val io = IO(new Bundle{
     val exmem_memwrite_in = Input(UInt(1.W))
     val exmem_memread_in = Input(UInt(1.W))
     val exmem_regwrite_in = Input(UInt(1.W))
