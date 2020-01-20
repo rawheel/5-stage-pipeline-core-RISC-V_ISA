@@ -26,149 +26,73 @@ class conn extends Module{
 	val aluconc = Module(new AluControl)
 	val instruction_c = Module(new instruction)
 	val pc_main = Module(new pc)
-	val jalr_c = Module(new jalr) //n
+	//val jalr_c = Module(new jalr) //n
 	val mem_c = Module(new main_mem)
 
 
 	pc_main.io.input := pc_main.io.pc4
-	immediatec.io.pc := pc_main.io.pc_output
+	//immediatec.io.pc := pc_main.io.pc_output
 
 	instruction_c.io.write_address := pc_main.io.pc_output(11,2)
 	controlc.io.OpCode :=instruction_c.io.r_data(6,0)
 
-	//instruction table
+	//register
 
 	reg32c.io.imm_rs1 := instruction_c.io.r_data(19,15)
 	reg32c.io.imm_rs2 := instruction_c.io.r_data(24,20)
-	reg32c.io.rd_reg:= instruction_c.io.r_data(11,7)
-	reg32c.io.reg_write:=controlc.io.RegWrite
-	immediatec.io.instruction := instruction_c.io.r_data
+	//reg32c.io.rd_reg:= instruction_c.io.r_data(11,7)
+	//reg32c.io.reg_write:=controlc.io.RegWrite
 
-	//immediate
+	//immediatec
+	immediatec.io.instruction := if_id_c.io.instruction_output
+	immediatec.io.pc := if_id_c.io.pc_output
 
-	aluconc.io.Func3:= instruction_c.io.r_data(14,12)
-	aluconc.io.Func7:= instruction_c.io.r_data(30)
-
-	//alu
-
+	//5  stage AluControl
 	aluconc.io.aluopp := controlc.io.AluOp
+	aluconc.io.Func3:= if_id_c.io.instruction_output(14,12)
+	aluconc.io.Func7:= if_id_c.io.instruction_output(30)
 
-	aluc.io.alu_c := aluconc.io.AluC
 
+// operand A
 	when(controlc.io.Operand_aSel==="b00".U){
 
-		aluc.io.A := reg32c.io.rs1_output
+		id_ex_c.io.cont_opA := (reg32c.io.rs1_output).asUInt
 
 	}.elsewhen(controlc.io.Operand_aSel==="b10".U){
 
-		aluc.io.A := pc_main.io.pc4.asSInt
+		//luc.io.A := pc_main.io.pc4.asSInt
+		id_ex_c.io.cont_opA := (if_id_c.io.pc4_output).asUInt
 
-	}/**.elsewhen(controlc.io.Operand_aSel==="b01".U){
+	}.elsewhen(controlc.io.Operand_aSel==="b01".U){
 
-		aluc.io.A := pc_main.io.pc_output.asSInt
+		//aluc.io.A := pc_main.io.pc_output.asSInt
+		id_ex_c.io.cont_opA := (if_id_c.io.pc_output).asUInt
 
-	}**/.elsewhen(controlc.io.Operand_aSel==="b11".U){
+	}.elsewhen(controlc.io.Operand_aSel==="b11".U){
 
-		aluc.io.A := reg32c.io.rs1_output
+		//aluc.io.A := reg32c.io.rs1_output
+		id_ex_c.io.cont_opA := (reg32c.io.rs1_output).asUInt
 
 	}.otherwise{
 
-		aluc.io.A:=DontCare
+		//aluc.io.A:=DontCare
+			id_ex_c.io.cont_opA := DontCare
 
 	}
-
+//Operand B
 	when(controlc.io.ExtendSel ==="b00".U && controlc.io.Operand_bSel==="b1".U){
 
-		aluc.io.B:=immediatec.io.I_Type
-		//5 stage one
-		//id_ex_c.io.imm_out := immediatec.io.I_Type.asUInt
-
+		id_ex_c.io.cont_opB := immediatec.io.I_Type.asUInt
 	}.elsewhen(controlc.io.ExtendSel==="b10".U && controlc.io.Operand_bSel==="b1".U){
-
-		aluc.io.B :=immediatec.io.S_Type
-		//5 stage one
-		//id_ex_c.io.imm_out := immediatec.io.S_Type.asUInt
+		id_ex_c.io.cont_opB:= immediatec.io.U_Type.asUInt
 
 	}.elsewhen(controlc.io.ExtendSel==="b01".U && controlc.io.Operand_bSel==="b1".U){
 
-		aluc.io.B :=immediatec.io.U_Type
-		//5 stage one
-		//id_ex_c.io.imm_out := immediatec.io.U_Type.asUInt
+		id_ex_c.io.cont_opB := immediatec.io.S_Type.asUInt
 
 	}.otherwise{
 
-		aluc.io.B:=reg32c.io.rs2_output
-
-	}
-
-	reg32c.io.write_data := aluc.io.alu_output //yahan hun
-
-
-
-	//jalr
-
-	when(controlc.io.ExtendSel==="b00".U){
-
-                jalr_c.io.j_imm := immediatec.io.I_Type
-
-
-	}.otherwise{
-
-		jalr_c.io.j_imm:= DontCare
-
-	}
-
-
-	jalr_c.io.j_rs1 := reg32c.io.rs1_output.asSInt
-	//io.jalr_out  := jalr_c.io.jalr_output
-
-
-
-	//muxx sel uj and jalr
-
-
-	when (controlc.io.NextPcSel==="b10".U){
-
-		pc_main.io.input := immediatec.io.Uj_Type.asUInt
-
-	}.elsewhen(controlc.io.NextPcSel==="b11".U){
-
-		pc_main.io.input := jalr_c.io.jalr_output.asUInt
-
-	}.elsewhen((aluc.io.alu_brancho & controlc.io.Branch)==="b1".U && controlc.io.NextPcSel==="b01".U){
-
-		pc_main.io.input := immediatec.io.Sb_Type.asUInt
-
-	}.elsewhen((aluc.io.alu_brancho & controlc.io.Branch)==="b0".U && controlc.io.NextPcSel==="b01".U){
-
-		pc_main.io.input := pc_main.io.pc4
-
-	}.elsewhen(controlc.io.NextPcSel==="b00".U){
-
-		pc_main.io.input := pc_main.io.pc4
-
-	}.otherwise{
-
-		pc_main.io.input := DontCare
-
-	}
-
-	//pc_main.io.input := pc_main.io.pc4
-	//pc_main.io.input := io.muxj_out.asUInt
-
-	io.output := aluc.io.alu_output
-
-
-//memory
-	mem_c.io.rs2:=reg32c.io.rs2_output
-	mem_c.io.alu_out:=aluc.io.alu_output(9,2).asUInt
-	mem_c.io.mem_read:=controlc.io.MemRead
-	mem_c.io.mem_write:=controlc.io.MemWrite
-
-	when (controlc.io.MemToReg=== 1.U){
-		reg32c.io.write_data := mem_c.io.mem_out
-
-	}.otherwise{reg32c.io.write_data := aluc.io.alu_output
+		id_ex_c.io.cont_opB:= (reg32c.io.rs2_output).asUInt
 
 	}
 
@@ -177,41 +101,70 @@ class conn extends Module{
 	//if_id_reg
 	if_id_c.io.pc_input := pc_main.io.pc_output
 	if_id_c.io.pc4_input := pc_main.io.pc4
-	if_id_c.io.instruction_input := instruction_c.io.r_data
+	val temp =instruction_c.io.r_data
+	if_id_c.io.instruction_input := temp
 
 	//id_ex_reg
-	id_ex_c.io.if_id_pcout := if_id_c.io.pc_output
-	id_ex_c.io.rs1_out1 := reg32c.io.rs1_output.asUInt
-	id_ex_c.io.rs2_out2 := reg32c.io.rs2_output.asUInt
-	id_ex_c.io.imm_out := 0.U //did it in when elsewhen of I,S,U type before
-	id_ex_c.io.ins_out := instruction_c.io.r_data
-	id_ex_c.io.rdsel := reg32c.io.rd_reg
+
+	id_ex_c.io.rs2_in := (reg32c.io.rs2_output).asUInt
+
+	id_ex_c.io.rdsel := if_id_c.io.instruction_output(11,7)
 	id_ex_c.io.cont_memwrite := controlc.io.MemWrite
-	id_ex_c.io.cont_branch := aluc.io.alu_brancho
+
 	id_ex_c.io.cont_memread := controlc.io.MemRead
 	id_ex_c.io.cont_regwrite := controlc.io.RegWrite
 	id_ex_c.io.cont_memtoreg := controlc.io.MemToReg
-	id_ex_c.io.cont_aluop := controlc.io.AluOp
-	id_ex_c.io.cont_opA := controlc.io.Operand_aSel
-	id_ex_c.io.cont_opB:= controlc.io.Operand_bSel
-	id_ex_c.io.cont_nextpcsel := controlc.io.NextPcSel
+	id_ex_c.io.alucont_in := aluconc.io.AluC
+
+	//id_ex_c.io.cont_op := controlc.io.Operand_aSel
+
+	//ALU
+	 aluc.io.alu_c := id_ex_c.io.id_ex_alucont_out
+	 aluc.io.A := (id_ex_c.io.cont_opA).asSInt
+	 aluc.io.B := (id_ex_c.io.cont_opB).asSInt
 
 	//ex_mem_reg
 	ex_mem_c.io.cont_memwrite := id_ex_c.io.cont_memwrite
 	ex_mem_c.io.cont_memread := id_ex_c.io.cont_memread
 	ex_mem_c.io.cont_regwrite := id_ex_c.io.cont_regwrite
-	ex_mem_c.io.alu_branchout := id_ex_c.io.cont_branch
-	ex_mem_c.io.alu_out := aluc.io.alu_output.asUInt
-	ex_mem_c.io.id_ex_rs2in := id_ex_c.io.rs2_out2
+	ex_mem_c.io.id_ex_rs2in := id_ex_c.io.id_ex_rs2out
 	ex_mem_c.io.id_ex_rdsel := id_ex_c.io.id_ex_rdsel_out
+	ex_mem_c.io. memtoreg_in :=  id_ex_c.io.cont_memtoreg_out
+	ex_mem_c.io.alu_out := (aluc.io.alu_output).asUInt
 
-	//mem_web_reg
-	mem_wb_c.io.exmem_memwrite_in := ex_mem_c.io.cont_memwrite
-	mem_wb_c.io.exmem_memread_in := ex_mem_c.io.cont_memread
-	mem_wb_c.io.exmem_regwrite_in := ex_mem_c.io.cont_regwrite
-	mem_wb_c.io.mainmemout_in  := mem_c.io.mem_out.asUInt
-	mem_wb_c.io.exmem_aluot_in := ex_mem_c.io.alu_out
-	mem_wb_c.io.exmem_rdsel_in := ex_mem_c.io.id_ex_rdsel
+	//main main_mem
+	mem_c.io.alu_out := (ex_mem_c.io.exme_alu_out(9,2)).asUInt
+	mem_c.io.rs2 := (ex_mem_c.io.exme_rs2_out).asSInt
+	mem_c.io.mem_write := ex_mem_c.io.exme_memwrit_out
+	mem_c.io.mem_read := ex_mem_c.io.exme_memread_out
+
+	//mem_wb_c
+		mem_wb_c.io.memtoreg_in := ex_mem_c.io.memtoreg_out
+		mem_wb_c.io.memwb_rdsel_in := ex_mem_c.io.exme_rdsel_out
+		mem_wb_c.io.memwb_aluout_in := ex_mem_c.io.exme_alu_out
+		mem_wb_c.io.memwb_dataout_in := (mem_c.io.mem_out).asUInt
+		mem_wb_c.io.memwb_regwrite_in := ex_mem_c.io.exme_regwrite_out
+
+
+	//writeback
+	reg32c.io.rd_reg := mem_wb_c.io.mem_web_rdsel_out
+	reg32c.io.reg_write := mem_wb_c.io.mem_web_regwrite_out
+
+	//writeback
+
+
+		when (mem_wb_c.io.mem_web_memtoreg_out=== 1.U){
+			//reg32c.io.write_data := mem_c.io.mem_out
+			reg32c.io.write_data := (mem_wb_c.io.mem_web_dataout_out).asSInt
+		}.otherwise{
+					when(reg32c.io.reg_write === 1.U){
+						reg32c.io.write_data := (mem_wb_c.io.mem_web_aluout_out).asSInt
+					}.otherwise{
+						reg32c.io. write_data := 0.S
+					}
+
+		}
+		io.output := reg32c.io.write_data
 
 
 }

@@ -10,9 +10,9 @@ class instruction extends Module{
 	val io = IO(new Bundle{
 
 		val write_address = Input(UInt(10.W)) //instruction table input
-		val r_data = Output(UInt(32.W))  //output from instruction mem
+		val r_data = Output(UInt(32.W))  			//output from instruction mem
 		
-		
+
 
 
 })
@@ -20,6 +20,5 @@ class instruction extends Module{
 
 		io.r_data := mem(io.write_address)
 		loadMemoryFromFile(mem,"/home/raheel/mach.txt")
-	
+
 }
-		
