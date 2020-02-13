@@ -159,4 +159,24 @@ class conn extends Module{
 		io.output := reg32c.io.write_data
 
 
+//FORWARDING
+
+id_ex_c.io.id_ex_rs1_sel := if_id_c.io.instruction_output(19,15)
+id_ex_c.io.id_ex_rs2_sel := if_id_c.io.instruction_output(24,20)
+
+
+when (ex_mem_c.io.exme_regwrite_out === "b1".U & ex_mem_c.io.exme_rdsel_out =/= "b00000".U){
+		when(ex_mem_c.io.exme_rdsel_out === id_ex_c.io.id_ex_rs1_out){aluc.io.A := ex_mem_c.io.exme_alu_out.asSInt}
+
+		.elsewhen(ex_mem_c.io.exme_rdsel_out === id_ex_c.io.id_ex_rs2_out){aluc.io.B  := ex_mem_c.io.exme_alu_out.asSInt}
+
+//}.otherwise(DontCare)
+
+when (mem_wb_c.io.mem_web_regwrite_out === "b1".U & mem_wb_c.io.mem_web_rdsel_out =/= "b00000".U){
+		when(mem_wb_c.io.mem_web_rdsel_out === id_ex_c.io.id_ex_rs1_out){aluc.io.A := mem_wb_c.io.mem_web_aluout_out.asSInt}
+		.elsewhen(mem_wb_c.io.mem_web_rdsel_out === id_ex_c.io.id_ex_rs2_out){aluc.io.B :=  mem_wb_c.io.mem_web_aluout_out.asSInt}//.otherwise(DontCare)
+	}
+}
+
+
 }

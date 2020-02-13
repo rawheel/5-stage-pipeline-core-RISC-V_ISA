@@ -15,6 +15,10 @@ class id_ex_reg extends Module{
       val cont_opB = Input(UInt(32.W))
       val alucont_in = Input(UInt(5.W))
 
+      val id_ex_rs1_sel = Input(UInt(5.W))
+      val id_ex_rs2_sel = Input(UInt(5.W))
+      val id_ex_rs2_out = Output(UInt(5.W))
+      val id_ex_rs1_out = Output(UInt(5.W))
 
       val id_ex_rs2out = Output(UInt(32.W))
       val id_ex_alucont_out = Output(UInt(5.W))
@@ -39,7 +43,8 @@ class id_ex_reg extends Module{
     val id_ex_alucont_reg = RegInit(0.U(5.W))
     val id_ex_rd_reg = RegInit(0.U(5.W))
 
-
+    val id_ex_rs2_reg_f = RegInit(0.U(5.W))
+    val id_ex_rs1_reg = RegInit(0.U(5.W))
 
 
     id_ex_rs2_reg := io.rs2_in
@@ -52,6 +57,9 @@ class id_ex_reg extends Module{
     id_ex_opB_reg := io.cont_opB
     id_ex_alucont_reg := io.alucont_in
 
+    id_ex_rs2_reg_f := io.id_ex_rs2_sel
+    id_ex_rs1_reg := io.id_ex_rs1_sel
+
     io.id_ex_rs2out := id_ex_rs2_reg
     io.id_ex_alucont_out := id_ex_alucont_reg
     io.cont_memwrite_out := id_ex_memwr_reg
@@ -61,5 +69,7 @@ class id_ex_reg extends Module{
     io.cont_opA_out :=   id_ex_opA_reg
     io.cont_opB_out :=id_ex_opB_reg
     io.id_ex_rdsel_out := id_ex_rd_reg
+    io.id_ex_rs2_out := id_ex_rs2_reg_f
+    io.id_ex_rs1_out :=  id_ex_rs1_reg
 
 }
