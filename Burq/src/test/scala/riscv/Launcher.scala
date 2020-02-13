@@ -71,11 +71,6 @@ object Launcher {
         Driver.execute(() => new jalr(), manager) {
           (c) => new jalrtests(c)
         }
-      },
-	"if_id_reg" -> { (manager: TesterOptionsManager) =>
-        Driver.execute(() => new if_id_reg(), manager) {
-          (c) => new if_id_reg_test(c)
-        }
       }
 	
 )

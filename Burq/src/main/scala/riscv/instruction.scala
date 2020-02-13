@@ -11,7 +11,7 @@ class instruction extends Module{
 
 		val write_address = Input(UInt(10.W)) //instruction table input
 		val r_data = Output(UInt(32.W))  			//output from instruction mem
-		
+
 
 
 

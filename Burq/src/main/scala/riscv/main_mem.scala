@@ -5,6 +5,7 @@ import chisel3.util.Cat
 //import chisel3.util.Fill
 import chisel3.util.experimental.loadMemoryFromFile
 class main_mem extends Module{
+	
 	val io = IO(new Bundle{
 		val rs2 = Input(SInt(32.W))     //data
 		val alu_out = Input(UInt(10.W))  //address

@@ -60,5 +60,6 @@ class id_ex_reg extends Module{
     io.cont_memtoreg_out :=   id_ex_memtoreg_reg
     io.cont_opA_out :=   id_ex_opA_reg
     io.cont_opB_out :=id_ex_opB_reg
+    io.id_ex_rdsel_out := id_ex_rd_reg
 
 }

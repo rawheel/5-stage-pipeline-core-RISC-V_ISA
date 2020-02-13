@@ -1915,3 +1915,718 @@ SEVERE: null
 java.lang.NullPointerException
 	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
 
+INFO  time: initialize in 0.26s
+INFO  skipping build import with status 'Installed'
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/pc.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/Control.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/ex_mem_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/id_ex_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/mem_wb_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/AluControl.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/main_mem.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/reg32.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/alu.scala
+INFO  shutting down Metals
+INFO  time: initialize in 0.44s
+INFO  skipping build import with status 'Installed'
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/pc.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/Control.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/ex_mem_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/id_ex_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/mem_wb_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/AluControl.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/main_mem.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/reg32.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/alu.scala
+INFO  no build target: using presentation compiler with only scala-library
+INFO  time: initialize in 0.28s
+INFO  skipping build import with status 'Installed'
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/pc.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/Control.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/ex_mem_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/id_ex_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/mem_wb_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/AluControl.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/main_mem.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/reg32.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/alu.scala
+INFO  no build target: using presentation compiler with only scala-library
+Feb 12, 2020 11:45:46 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+Feb 12, 2020 11:46:55 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 11:47:04 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 11:48:02 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 11:48:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 11:48:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 11:48:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 11:48:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 11:48:18 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 11:49:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+Feb 12, 2020 11:49:51 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 11:51:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 11:51:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 11:51:48 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 11:51:49 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 11:51:52 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 11:51:54 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 11:52:22 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/id_ex_reg.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/id_ex_reg.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/id_ex_reg.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/id_ex_reg.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/id_ex_reg.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/id_ex_reg.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/instruction.scala
+Feb 12, 2020 12:11:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 12:12:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 12:17:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 12:18:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 12:18:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 12:19:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/Immediate.scala
+Feb 12, 2020 12:25:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 12:30:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala' because it doesn't belong to a build target.
+Feb 12, 2020 12:31:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/instruction.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/instruction.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/test/scala/riscv/pctests.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/test/scala/riscv/if_id_reg_test.scala
+Feb 12, 2020 12:42:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/test/scala/riscv/if_id_reg_test.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/test/scala/riscv/if_id_reg_test.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/test/scala/riscv/if_id_reg_test.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/test/scala/riscv/if_id_reg_test.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/test/scala/riscv/if_id_reg_test.scala
+WARN  no build target: 
+Feb 12, 2020 12:45:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "workspace/didChangeWatchedFiles",
+  "params": {
+    "changes": [
+      {
+        "uri": "file:///home/raheel/Burq-Core/Burq/src/test/scala/riscv/.goutputstream-UWW7F0",
+        "type": 3
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /home/raheel/Burq-Core/Burq/src/test/scala/riscv/.goutputstream-UWW7F0
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:370)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:421)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3205)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onChange$1(MetalsLanguageServer.scala:725)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onChange$1$adapted(MetalsLanguageServer.scala:724)
+	at scala.collection.immutable.Stream.foreach(Stream.scala:533)
+	at scala.meta.internal.metals.MetalsLanguageServer.onChange(MetalsLanguageServer.scala:724)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChangeWatchedFiles(MetalsLanguageServer.scala:689)
+	... 16 more
+
+Feb 12, 2020 12:46:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "workspace/didChangeWatchedFiles",
+  "params": {
+    "changes": [
+      {
+        "uri": "file:///home/raheel/Burq-Core/Burq/src/test/scala/riscv/.goutputstream-5DSTF0",
+        "type": 3
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /home/raheel/Burq-Core/Burq/src/test/scala/riscv/.goutputstream-5DSTF0
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:370)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:421)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3205)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onChange$1(MetalsLanguageServer.scala:725)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onChange$1$adapted(MetalsLanguageServer.scala:724)
+	at scala.collection.immutable.Stream.foreach(Stream.scala:533)
+	at scala.meta.internal.metals.MetalsLanguageServer.onChange(MetalsLanguageServer.scala:724)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChangeWatchedFiles(MetalsLanguageServer.scala:689)
+	... 16 more
+
+Feb 12, 2020 12:46:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "workspace/didChangeWatchedFiles",
+  "params": {
+    "changes": [
+      {
+        "uri": "file:///home/raheel/Burq-Core/Burq/src/test/scala/riscv/if_id_reg_test.scala",
+        "type": 3
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /home/raheel/Burq-Core/Burq/src/test/scala/riscv/if_id_reg_test.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:370)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:421)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3205)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onChange$1(MetalsLanguageServer.scala:725)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onChange$1$adapted(MetalsLanguageServer.scala:724)
+	at scala.collection.immutable.Stream.foreach(Stream.scala:533)
+	at scala.meta.internal.metals.MetalsLanguageServer.onChange(MetalsLanguageServer.scala:724)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChangeWatchedFiles(MetalsLanguageServer.scala:689)
+	... 15 more
+
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/test/scala/riscv/pctests.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/test/scala/riscv/instests.scala
+Feb 12, 2020 1:00:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 1:02:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala
+WARN  no build target: 
+Feb 12, 2020 1:06:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala
+WARN  no build target: 
+Feb 12, 2020 1:18:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/pc.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala
+WARN  no build target: 
+Feb 12, 2020 1:40:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 1:41:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 1:42:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+INFO  time: initialize in 0.28s
+INFO  skipping build import with status 'Installed'
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/pc.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/Control.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/ex_mem_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/id_ex_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/mem_wb_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/AluControl.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/main_mem.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/instruction.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/Immediate.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/reg32.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/alu.scala
+INFO  no build target: using presentation compiler with only scala-library
+Feb 12, 2020 9:35:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 9:35:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+Feb 12, 2020 11:02:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 11:02:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 11:02:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 11:08:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 12, 2020 11:09:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/id_ex_reg.scala
+Feb 13, 2020 12:16:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 13, 2020 12:16:04 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 13, 2020 12:16:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 13, 2020 12:16:24 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 13, 2020 12:16:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 13, 2020 12:16:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/main_mem.scala
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/reg32.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/id_ex_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/instruction.scala
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/instruction.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/main_mem.scala
+WARN  no build target: 
+INFO  shutting down Metals
+INFO  time: initialize in 0.23s
+INFO  skipping build import with status 'Installed'
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/pc.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/reg32.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/id_ex_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/ex_mem_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/main_mem.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/mem_wb_reg.scala
+INFO  time: initialize in 0.28s
+INFO  skipping build import with status 'Installed'
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/pc.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/reg32.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/id_ex_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/if_id_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/ex_mem_reg.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/main_mem.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/mem_wb_reg.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+Feb 13, 2020 3:04:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/test/scala/riscv/conntests.scala
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/test/scala/riscv/conntests.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/id_ex_reg.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/id_ex_reg.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+Feb 13, 2020 10:36:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/ex_mem_reg.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+Feb 13, 2020 10:37:22 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 13, 2020 10:41:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+Feb 13, 2020 10:50:48 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 13, 2020 10:50:51 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 13, 2020 10:52:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/ex_mem_reg.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+Feb 13, 2020 11:08:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 13, 2020 11:12:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 13, 2020 11:13:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 13, 2020 11:15:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/ex_mem_reg.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/id_ex_reg.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/id_ex_reg.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/Burq-Core/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
