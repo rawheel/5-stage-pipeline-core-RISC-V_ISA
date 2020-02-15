@@ -1,14 +1,13 @@
 package riscv
 
 import chisel3._
-import chisel3.util.Cat
-import chisel3.util.Fill
 import chisel3.core.SInt
 class conn extends Module{
 	val io = IO(new Bundle{
 
 
 		val output = Output(SInt(32.W))
+		//val temp = Output(UInt(32.W))
 
 
 })
@@ -52,40 +51,7 @@ class conn extends Module{
 	aluconc.io.Func7:= if_id_c.io.instruction_output(30)
 
 
-// operand A
 
-	when(controlc.io.Operand_aSel==="b10".U){
-
-		//luc.io.A := pc_main.io.pc4.asSInt
-		id_ex_c.io.cont_opA := (if_id_c.io.pc4_output).asUInt
-
-	}.elsewhen(controlc.io.Operand_aSel==="b01".U){
-
-		//aluc.io.A := pc_main.io.pc_output.asSInt
-		id_ex_c.io.cont_opA := (if_id_c.io.pc_output).asUInt
-
-	}.otherwise{
-
-		//aluc.io.A:=DontCare
-			id_ex_c.io.cont_opA := (reg32c.io.rs1_output).asUInt
-
-	}
-//Operand B
-	when(controlc.io.ExtendSel ==="b00".U && controlc.io.Operand_bSel==="b1".U){
-
-		id_ex_c.io.cont_opB := immediatec.io.I_Type.asUInt
-	}.elsewhen(controlc.io.ExtendSel==="b10".U && controlc.io.Operand_bSel==="b1".U){
-		id_ex_c.io.cont_opB:= immediatec.io.U_Type.asUInt
-
-	}.elsewhen(controlc.io.ExtendSel==="b01".U && controlc.io.Operand_bSel==="b1".U){
-
-		id_ex_c.io.cont_opB := immediatec.io.S_Type.asUInt
-
-	}.otherwise{
-
-		id_ex_c.io.cont_opB:= (reg32c.io.rs2_output).asUInt
-
-	}
 
 
 
@@ -158,25 +124,137 @@ class conn extends Module{
 		}
 		io.output := reg32c.io.write_data
 
+		// operand A
+
+			when(controlc.io.Operand_aSel==="b10".U){
+
+				//luc.io.A := pc_main.io.pc4.asSInt
+				id_ex_c.io.cont_opA := (if_id_c.io.pc4_output).asUInt
+
+			}.elsewhen(controlc.io.Operand_aSel==="b01".U){
+
+				//aluc.io.A := pc_main.io.pc_output.asSInt
+				id_ex_c.io.cont_opA := (if_id_c.io.pc_output).asUInt
+
+			}.otherwise{
+
+				//aluc.io.A:=DontCare
+					id_ex_c.io.cont_opA := (reg32c.io.rs1_output).asUInt
+
+			}
+		//Operand B
+			when(controlc.io.ExtendSel ==="b00".U && controlc.io.Operand_bSel==="b1".U){
+
+				id_ex_c.io.cont_opB := immediatec.io.I_Type.asUInt
+			}.elsewhen(controlc.io.ExtendSel==="b10".U && controlc.io.Operand_bSel==="b1".U){
+				id_ex_c.io.cont_opB:= immediatec.io.U_Type.asUInt
+
+			}.elsewhen(controlc.io.ExtendSel==="b01".U && controlc.io.Operand_bSel==="b1".U){
+
+				id_ex_c.io.cont_opB := immediatec.io.S_Type.asUInt
+
+			}.otherwise{
+
+				id_ex_c.io.cont_opB:= (reg32c.io.rs2_output).asUInt
+
+			}
+
+			when(controlc.io.ExtendSel ==="b00".U)
+			{id_ex_c.io.imm := immediatec.io.I_Type.asUInt
+			}.elsewhen(controlc.io.ExtendSel==="b10".U ){
+
+				id_ex_c.io.imm:= immediatec.io.U_Type.asUInt
+			}.elsewhen(controlc.io.ExtendSel==="b01".U ){
+				id_ex_c.io.imm := immediatec.io.S_Type.asUInt
+			}.otherwise
+				{id_ex_c.io.imm:= 0.U(32.W)}
+
+
 
 //FORWARDING
-
 id_ex_c.io.id_ex_rs1_sel := if_id_c.io.instruction_output(19,15)
 id_ex_c.io.id_ex_rs2_sel := if_id_c.io.instruction_output(24,20)
 
+id_ex_c.io.pc := if_id_c.io.pc_output
+id_ex_c.io.pc4 := if_id_c.io.pc4_output
 
-when (ex_mem_c.io.exme_regwrite_out === "b1".U & ex_mem_c.io.exme_rdsel_out =/= "b00000".U){
-		when(ex_mem_c.io.exme_rdsel_out === id_ex_c.io.id_ex_rs1_out){aluc.io.A := ex_mem_c.io.exme_alu_out.asSInt}
 
-		.elsewhen(ex_mem_c.io.exme_rdsel_out === id_ex_c.io.id_ex_rs2_out){aluc.io.B  := ex_mem_c.io.exme_alu_out.asSInt}
+val forwarding = Module(new forwarding)
 
-//}.otherwise(DontCare)
+forwarding.io.exmem_regwrite := ex_mem_c.io.exme_regwrite_out
+forwarding.io.rdselexmem := ex_mem_c.io.exme_rdsel_out
+forwarding.io.idexrs1 := id_ex_c.io.id_ex_rs1_out
+forwarding.io.idex_rs2 := id_ex_c.io.id_ex_rs2_out
+forwarding.io.memwb_regwrite := mem_wb_c.io.mem_web_regwrite_out
+forwarding.io.memwb_rdsel := mem_wb_c.io.mem_web_rdsel_out
 
-when (mem_wb_c.io.mem_web_regwrite_out === "b1".U & mem_wb_c.io.mem_web_rdsel_out =/= "b00000".U){
-		when(mem_wb_c.io.mem_web_rdsel_out === id_ex_c.io.id_ex_rs1_out){aluc.io.A := mem_wb_c.io.mem_web_aluout_out.asSInt}
-		.elsewhen(mem_wb_c.io.mem_web_rdsel_out === id_ex_c.io.id_ex_rs2_out){aluc.io.B :=  mem_wb_c.io.mem_web_aluout_out.asSInt}//.otherwise(DontCare)
-	}
+when (id_ex_c.io.cont_opA_out === "b10".U){
+	aluc.io.A := id_ex_c.io.pc4_output.asSInt
+	}.otherwise{
+				when (forwarding.io.forwardA === "b00".U){
+					aluc.io.A:= id_ex_c.io.id_ex_rs1_out.asSInt
+				}.elsewhen(forwarding.io.forwardA === "b10".U){
+					aluc.io.A:=reg32c.io.write_data
+				}.elsewhen(forwarding.io.forwardA === "b01".U){
+					aluc.io.A := ex_mem_c.io.exme_alu_out.asSInt
+				}.otherwise(aluc.io.A := id_ex_c.io.id_ex_rs1_out.asSInt)
+																																				}
+when (id_ex_c.io.cont_opB_out === "b1".U){
+	aluc.io.B := id_ex_c.io.imm_out.asSInt
+
+					when (forwarding.io.forwardB === "b00".U){
+						ex_mem_c.io.id_ex_rs2in:= id_ex_c.io.id_ex_rs2_out
+					}.elsewhen (forwarding.io.forwardB === "b10".U){
+
+						ex_mem_c.io.id_ex_rs2in := reg32c.io.write_data.asUInt
+
+
+					}.elsewhen (forwarding.io.forwardB === "b01".U){
+						ex_mem_c.io.id_ex_rs2in := ex_mem_c.io. exme_alu_out
+					}.otherwise{ex_mem_c.io.id_ex_rs2in :=id_ex_c.io.id_ex_rs2_out}
+
+}.otherwise{
+		when (forwarding.io.forwardB === "b00".U){
+			aluc.io.B:= id_ex_c.io.id_ex_rs2_out.asSInt
+			ex_mem_c.io.id_ex_rs2in:= id_ex_c.io.id_ex_rs2_out
+
+	}.elsewhen (forwarding.io.forwardB === "b10".U){
+		aluc.io.B := reg32c.io.write_data
+		ex_mem_c.io.id_ex_rs2in := reg32c.io.write_data.asUInt
+
+	}.elsewhen (forwarding.io.forwardB === "b01".U){
+		aluc.io.B := ex_mem_c.io.exme_alu_out.asSInt
+		ex_mem_c.io.id_ex_rs2in := ex_mem_c.io. exme_alu_out
+																									}
+
+																															}
+
 }
 
 
-}
+
+
+//WORKING FORWARDING
+
+/*when (ex_mem_c.io.exme_regwrite_out === "b1".U && ex_mem_c.io.exme_rdsel_out =/= "b00000".U){
+		when(ex_mem_c.io.exme_rdsel_out === id_ex_c.io.id_ex_rs1_out)
+					{aluc.io.A := ex_mem_c.io.exme_alu_out.asSInt}
+
+		.elsewhen(ex_mem_c.io.exme_rdsel_out === id_ex_c.io.id_ex_rs2_out)
+					{aluc.io.B  := ex_mem_c.io.exme_alu_out.asSInt}
+				}
+
+when (mem_wb_c.io.mem_web_regwrite_out === "b1".U && mem_wb_c.io.mem_web_rdsel_out =/= "b00000".U){
+		when(mem_wb_c.io.mem_web_rdsel_out === id_ex_c.io.id_ex_rs1_out)
+					{aluc.io.A := mem_wb_c.io.mem_web_aluout_out.asSInt}
+		.elsewhen(mem_wb_c.io.mem_web_rdsel_out === id_ex_c.io.id_ex_rs2_out)
+					{aluc.io.B :=  mem_wb_c.io.mem_web_aluout_out.asSInt}
+	}*/
+
+
+
+//STALLING
+/*iif_id_c. := if_id_c.io.instruction_output(19,15)
+if_id_c. := if_id_c.io.instruction_output(24,20)
+val stalling = Module(new stalling)
+stalling.io.register_rd := */

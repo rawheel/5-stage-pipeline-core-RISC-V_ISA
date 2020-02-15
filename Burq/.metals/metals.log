@@ -2734,3 +2734,1072 @@ java.lang.NullPointerException
 	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
 	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
 
+Feb 14, 2020 1:27:14 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/id_ex_reg.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/id_ex_reg.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/alu.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+Feb 14, 2020 1:39:40 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+Feb 14, 2020 1:43:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+Feb 14, 2020 1:53:13 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 14, 2020 1:53:14 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:448)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 14, 2020 1:54:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+Feb 14, 2020 2:03:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+Feb 14, 2020 2:05:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+Feb 14, 2020 2:15:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 2:15:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 2:15:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 2:15:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 2:15:59 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 14, 2020 2:16:07 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:448)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/mem_wb_reg.scala
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/mem_wb_reg.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+Feb 14, 2020 2:17:14 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 14, 2020 2:17:15 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:448)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/mem_wb_reg.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/mem_wb_reg.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/mem_wb_reg.scala' because it doesn't belong to a build target.
+Feb 14, 2020 2:17:44 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 14, 2020 2:18:05 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:448)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+Feb 14, 2020 2:18:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+Feb 14, 2020 2:20:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 2:21:02 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 2:21:24 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 2:21:43 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 2:22:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 2:22:14 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 2:23:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+Feb 14, 2020 2:24:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+Feb 14, 2020 2:29:23 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 14, 2020 2:29:25 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:448)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+Feb 14, 2020 2:30:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+Feb 14, 2020 2:30:07 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+Feb 14, 2020 2:43:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 2:43:53 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+Feb 14, 2020 2:46:47 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+Feb 14, 2020 2:51:48 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/AluControl.scala
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/ITD.scala
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+Feb 14, 2020 2:56:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+Feb 14, 2020 3:19:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 3:20:15 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+Feb 14, 2020 3:21:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 3:21:14 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+Feb 14, 2020 3:21:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+Feb 14, 2020 3:22:04 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+Feb 14, 2020 3:23:05 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 3:23:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 3:23:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+Feb 14, 2020 3:44:05 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+Feb 14, 2020 3:45:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 3:45:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+Feb 14, 2020 3:47:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 3:47:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 3:47:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+Feb 14, 2020 3:48:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 3:48:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+Feb 14, 2020 4:05:49 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+Feb 14, 2020 4:08:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 4:08:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 4:09:39 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 14, 2020 4:09:41 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:448)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+Feb 14, 2020 4:09:49 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 14, 2020 4:09:51 AM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:448)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+Feb 14, 2020 4:16:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Feb 14, 2020 4:17:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+Feb 14, 2020 4:19:02 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/forwarding.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/raheel/5--satge-pipeline-RISC-V_ISA/Burq/src/main/scala/riscv/conn.scala
+WARN  no build target: 
+INFO  shutting down Metals

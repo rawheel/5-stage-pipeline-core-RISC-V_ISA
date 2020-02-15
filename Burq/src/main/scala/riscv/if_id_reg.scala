@@ -8,6 +8,9 @@ class if_id_reg extends Module{
 		val pc4_input = Input(UInt(32.W))
 		val instruction_input = Input(UInt(32.W))
 
+		//val reg_rs1 = Input(UInt(32.W))
+		//val reg_rs2 = Input(UInt(32.W))
+
 		val pc_output = Output(UInt(32.W))
 		val pc4_output = Output(UInt(32.W))
 		val instruction_output = Output(UInt(32.W))

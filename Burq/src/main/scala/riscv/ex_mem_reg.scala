@@ -11,7 +11,6 @@ class ex_mem_reg extends Module{
     val id_ex_rs2in = Input(UInt(32.W))
     val id_ex_rdsel = Input(UInt(5.W))
 
-
     val exme_memwrit_out = Output(UInt(1.W))
     val exme_memread_out = Output(UInt(1.W))
     val exme_regwrite_out = Output(UInt(1.W))
